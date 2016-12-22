@@ -1,0 +1,8 @@
+<div class="box" ng-repeat="v in list">
+    <a href="#/show/{{v.id}}">
+        <div>
+            <img class="img" src="{{v.images[0]||'images/1.jpg'}}" alt="" />
+        </div>
+        <span>{{v.title}}</span>
+    </a>
+</div>

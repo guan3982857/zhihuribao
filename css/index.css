@@ -1,0 +1,95 @@
+body,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,hr,p,pre,form,button, input, textarea,th,td{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:active,a:hover {
+  outline: 0;
+}
+input:focus{
+    outline: 0;
+}
+body{
+    font-family: "微软雅黑";
+    color:#333;
+    background:#F6F6F6;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    color:#666;
+    text-decoration:none;
+}
+header{
+    width:100%;
+    height:80px;
+    background:#fff;
+}
+header .header{
+    width:980px;
+    height:80px;
+    margin:0 auto;
+}
+header .logo{
+    overflow: hidden;
+    width: 220px;
+    height:80px;
+    background: transparent url(../images/logo.png) no-repeat 0 13px;
+    float:left;
+}
+header ul{
+    width:540px;
+    height:60px;
+    padding-right: 200px;
+    margin-top: 20px;
+    float:left;
+    line-height:30px;
+    font-size: 14px;
+}
+header ul li{
+    width:auto;
+    height:30px;
+    margin-right:15px;
+    float:left;
+}
+header ul li a:hover{
+    color:#008BED;
+}
+
+section{
+    width:1020px;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto;
+}
+.box{
+    width:260px;
+    height:320px;
+    float:left;
+    margin:20px;
+    background:#fff;
+    padding:15px;
+}
+.img{
+    width:260px;
+    height:260px;
+}
+.box span{
+    display: block;
+    width:260px;
+    line-height: 1.5;
+    padding:10px;
+}
+footer{
+    width:960px;height:auto;
+    margin:0 auto;
+    text-align:center;
+    line-height: 80px;
+}

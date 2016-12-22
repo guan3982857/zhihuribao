@@ -1,0 +1,15 @@
+ <link rel="stylesheet" href="{{list.css[0]}}">
+ <style type="text/css">
+    .img-place-holder{
+        display: none;
+    }
+ </style>
+<div style="width:760px;margin:40px auto;font-size:14px">
+    <div style="margin-left:50px;">
+        <img src="{{list.image}}" alt="" style="width: 100%;height: auto">
+        <h2 style="line-height: 2">{{list.title}}</h2>
+    </div>
+    <article ng-bind-html="list.body">
+
+    </article>
+</div>
